@@ -1,0 +1,36 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<div class="cbp-l-inline">
+    <div class="cbp-l-inline-left ">
+        <a href="new-img/daveman-1.jpg" data-gal="prettyPhoto[product-gallery]"><img src="new-img/daveman-1.jpg" alt="Daveman Web Design 1"></a>
+        <a href="new-img/daveman-2.jpg" data-gal="prettyPhoto[product-gallery]"><img src="new-img/daveman-2.jpg" alt="Daveman Web Design 2"></a>
+    </div>
+
+    <div class="cbp-l-inline-right">
+        <div class="cbp-l-inline-title">Daveman Website &amp; Branding</div>
+        <div class="cbp-l-inline-subtitle">
+        <p class="lead">Daveman is a data velocity management company based in Sydney, Australia.</p></div>
+
+        <div class="cbp-l-inline-desc">
+        <p>Working with Mocca Design, I was given a brief to completely re-design and refresh an older, unresponsive website for a Data Velocity Management company. Being in the business of repairing and rehabilitating worn out computers and devices, they wanted us to attempt to create a much more contemporary and 'current' digital experience which would help them to revitalise their business which should have an ever increasing market in the digital age.
+        </p>
+        <p>
+	     Creating the theme from scratch, I wanted to show off a business that was very tech-savvy and modern. I took much of the copywriting from the previous website and added new imagery and just a few modern jQuery effects to make the site more engaging. One of the most important elements to consider was the scalability and responsiveness of the website of an experienced tech company.
+        </p>
+        </div>
+
+        <a href="daveman-2.html" class="cbp-l-inline-view">VIEW PROJECT</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+(function($) {
+"use strict";
+    jQuery('a[data-gal]').each(function() {
+    jQuery(this).attr('rel', jQuery(this).data('gal'));
+    });
+    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'dark_square',social_tools:false,deeplinking:false});
+})(jQuery);
+</script>
