@@ -1,2 +1,3 @@
-# Serious Bear Designs website https://www.serious-bear.com
+# Serious Bear Designs website 
+<a>https://www.serious-bear.com</a>
 
